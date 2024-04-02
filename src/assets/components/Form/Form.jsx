@@ -15,6 +15,8 @@ const handleSubmit = (e) => {
 
 const FormTitle = ({ userIsRegistered }) => {
 
+    const href = userIsRegistered ? "https://imanagy-reactapp.vercel.app/register" : "https://imanagy-reactapp.vercel.app/";
+
     return (
 
         <div className="formTitle">
@@ -29,7 +31,7 @@ const FormTitle = ({ userIsRegistered }) => {
 
                 { userIsRegistered ? "If you don’t have an account register" : "If you already have an account register" } <br />
 
-                You can <a href="#">{ userIsRegistered ? "Register Here!" : "Login Here!"}</a>
+                You can <a href={ href } >{ userIsRegistered ? "Register Here!" : "Login Here!"}</a>
 
             </p>
 
