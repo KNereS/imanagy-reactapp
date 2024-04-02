@@ -134,15 +134,19 @@
 
 @media (max-width: 420px) {
 
-    .formInput input, .formExtras, .Form form button {
+    .formInput input, .formExtras, .Form form button, .or, .continueWith, .formInput, .formTitle, .Form form, .Form {
         width: 300px;
+    }
+
+    .Form {
+        padding: 0;
     }
 
 }
 
 @media (max-width: 350px) {
 
-    .formInput input, .formExtras, .Form form button {
+    .formInput input, .formExtras, .Form form button, .or, .continueWith, .formInput, .formTitle, .Form form, .Form {
         width: 250px;
     }
 
@@ -150,7 +154,7 @@
 
 @media (max-width: 300px) {
 
-    .formInput input, .formExtras, .Form form button {
+    .formInput input, .formExtras, .Form form button, .or, .continueWith, .formInput, .formTitle, .Form form, .Form {
         width: 225px;
     }
 
