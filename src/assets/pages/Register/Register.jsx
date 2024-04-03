@@ -3,15 +3,15 @@ import Details from "../../components/Details/Details.jsx";
 
 import "./Register.css";
 
-const isUserRegistered = false;
+const registered = false;
 
 const Register = () => {
 
     return (
 
         <div className="pageContainer">
-            <Details userIsRegistered={isUserRegistered} />
-            <Form userIsRegistered={isUserRegistered} />
+            <Details userIsRegistered={registered} />
+            <Form userIsRegistered={registered} />
         </div>
 
     );
