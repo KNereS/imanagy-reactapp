@@ -122,7 +122,7 @@ const FormBody = ({ userIsRegistered }) => {
 
                 <div className="formInput">
                     <label>Confirm Password</label>
-                    <input type="password" placeholder="Enter your Password" id="password"/>
+                    <input type="password" placeholder="Enter your Password" id="repeatPassword"/>
                     <img className="formInputIcon" src={password} />
                 </div>
 
