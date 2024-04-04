@@ -1,5 +1,7 @@
 # iManagy App 📱 - React.js + Vite ⚛️ - Front-End
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge)
+
 [iManagy App - deploy Vercel](https://imanagy-reactapp.vercel.app/)
 
 O projeto consiste em criar uma aplicação web com funcionalidades de login e registro. A plataforma iManagy permitirá que os usuários se autentiquem, acessem recursos restritos e mantenham seus dados de perfil. Detalharemos os principais componentes e etapas desse projeto a seguir:
@@ -8,7 +10,7 @@ O projeto consiste em criar uma aplicação web com funcionalidades de login e r
 
 - Front-End (Etapa Atual) - Utilizaremos React.js (biblioteca JavaScript com foco em criar interfaces de usuário em páginas web) para criar a interface do usuário (UI);
 - Back-end - O servidor será construído com **Node.js (ambiente de tempo de execução JavaScript no lado do servidor)** e **Express (biblioteca JavaScript para criar aplicativos baseados no Node.js)**, este terá a responsabilidade de interagir com o Banco de Dados e retornar para a UI as informações nele contidas;
-- Banco de Dados - Armazenaremos os dados dos usuários em um banco de dados **MongoDB (banco de dados NoSQL baseado em documentos)**.
+- Banco de Dados - Armazenaremos os dados dos usuários em um banco de dados **PostgreSQL (sistema gerenciador de banco de dados objeto-relacional)**.
 
 # Estrutura de Arquivos 🗃️
 
